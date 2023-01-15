@@ -179,6 +179,7 @@
     color: #131313;
     margin-bottom: 10px;
     align-items: center;
+    margin-left: 30px;
 
 }
 
@@ -189,6 +190,7 @@
     font-size: 16px;
     line-height: 26px;
     color: #727272;
+    margin-left: 30px;
 }
  
 .women{
@@ -197,11 +199,87 @@
 }
 
 .experience{
-        position: absolute;
+    position: absolute;
     width: 342px;
     height: 200px;
-    left: 1157px;
-    top: 3088px;
+    left: 870px;
+    top: 3135px;
     background: #FF900E;
     border-radius: 8px;
+    border: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    font-size: 55px;
+    align-items: center;
+    padding-top: 37px;
+}
+
+.small{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 26px;
+    color: white;
+}
+
+.fact{
+    margin-left: 240px;
+}
+
+.fact-title{
+    width: 258px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.fact-description{
+    width: 542px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 290px;
+    margin-right: 290px;
+}
+
+.boxs{
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-title{
+    width: 102px;
+    height: 53px;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #424242;
+    padding: 7px 0px;
+}
+
+.box-description{
+    /* width: 150px;
+    height: 23px; */
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
 }
