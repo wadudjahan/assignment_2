@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+
+/* header section css start */
+
 .header{
     background: rgba(255, 144, 14, 0.1);
 }
@@ -77,6 +80,8 @@
     border-radius: 8px;
 }
 
+/* section one css start */
+
 .section-1{
     display: flex;
     justify-content: center;
@@ -125,6 +130,8 @@
     line-height: 26px;
     color: #727272;
 }
+
+/* second section css start */
 
 .section-2{
     display: flex;
@@ -246,6 +253,8 @@
     color: #727272;
 }
 
+/* third section css start */
+
 .box{
     display: flex;
     justify-content: space-around;
@@ -293,6 +302,8 @@
     padding-left: 28px;
 }
 
+/* sponsor css start */
+
 .sponsor{
     display: flex;
     flex-direction: column;
@@ -331,6 +342,8 @@
     -webkit-filter: grayscale(100%);
 }
 
+/* bonus css start */
+
 .extra{
     margin-top: 150px;
     display: grid;
@@ -361,6 +374,8 @@
     color: #727272;
     text-align: left;
 }
+
+/* footer css start */
 
 .footer{
     width: 1440px;
